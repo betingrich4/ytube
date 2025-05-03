@@ -1,0 +1,40 @@
+:root {
+  --primary-color: #ff0000;
+  --secondary-color: #282828;
+  --text-color: #333;
+  --light-text: #777;
+  --background: #f9f9f9;
+  --white: #fff;
+  --black: #000;
+  --gray: #ddd;
+  --dark-gray: #aaa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  color: var(--text-color);
+  background-color: var(--background);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  }
